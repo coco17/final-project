@@ -1,54 +1,51 @@
-<!DOCTYPE html>
+h1 {
+  font-family: Londrina Shadow;
+}
 
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Sweet Alpaca Cafe</title>
-</head>
+p {
+  font-family: 'Pacifico', cursive;
+}
 
-<body>
-  <h1>Sweet Alpaca Cafe!</h1>
-  <h2>A New York City treat</h2>
-  <img class="dancingllama" src="images/dancingllama.gif" alt="dancing llama" height="250" width="270">
-  <img class="dancingllama" src="images/dancingllama.gif" alt="dancing llama" height="250" width="270">
-  <img class="flower-llama" src="images/flower-llama.gif" alt="flower-llama" height='270' width="270"
+body {
+  font-family: helvetica, sans-serif;
+  color: pink;
+  margin: 0 auto;
+  width: 1000px;
+  background-image: url("https://scontent.xx.fbcdn.net/hphotos-xfp1/t31.0-8/11539066_645302212266981_4572476542853250513_o.jpg");
+}
+
+div {
+  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+  background-size: cover;
+}
+
+p {
+  color: rgb(255, 255, 153);
+}
+
+.first {
+  background-image: url("")
+
+}
+
+.second {
+  background-image: url("");
+}
+.third {
+  background-image: url("");
+}
+.fourth { 
+  background-image: url("");
+}
 
 
-  <nav>
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="first">
-    <p>
-      Sweet Cappuccino  <span class="price">$2.50</span><br />
-      <small>Relax with one of our sweet cappucinos served both caffunated and decaf. </small>
-    </p>
-  </div>
 
-  <div class="second">
-    <p>
-      Macarons! <span class="price">$2</span><br />
-      <small>Take your pick at our rainbow of macarons.</small>
-    </p>
-  </div>
 
-  <div class="third">
-    <p>
-      Marzipan Boxset <span class="price">$8</span><br />
-      <small>Take home one of our delicious marzipan boxsets made with almond paste!</small>
-    </p>
-  </div>
-  
-   <div class="fourth">
-    <p>
-      Smoked Salmon On Rye <span class="price">$2.50</span><br />
-      <small>Organic wild caught smoked salmon on whole grain rye bread. </small>
-    </p>
-  </div>
-  
-
-</body>
+.hellokitty {
+  float: right;
+  position: absolute;
+  right:250px;
+  top:0;
+  height: 150px;
+  width: 170px;
+}
